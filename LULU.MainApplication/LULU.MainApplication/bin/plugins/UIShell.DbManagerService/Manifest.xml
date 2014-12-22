@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="轻量级ORM数据访问服务" 
+        SymbolicName="UIShell.DbManagerService" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="UIShell.DbManagerService.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\UIShell.DbManagerService.dll" Share="true" />
+    <Assembly Path="bin\BLToolkit.2.dll" Share="true" />
+  </Runtime>
+  
+  <ExtensionPoint Point="UIShell.DataSources" />
+
+  <!-- 数据源定义。
+  <Extension Point="UIShell.DataSources">
+    <DataSource Name="Default" 
+                ConnectionString="data source='{BundleLocation}\App_Data\ConsolePlugin.sdf';" 
+                ProviderName="Microsoft.SqlServerCe.Client.3.5" Description="" />
+                
+    <DataSource Name="SqlServer" 
+                ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename={BundleLocation}\App_Data\MyDatabase.mdf;Integrated Security=True;User Instance=True" 
+                ProviderName="System.Data.SqlClient" Description="" />
+  </Extension>-->
+  
+  <ExtensionPoint Point="UIShell.ProviderFactoryLoaders" />
+
+  <!-- DbProviderFactory加载器扩展。
+  <Extension Point="UIShell.ProviderFactoryLoaders">
+    <ProviderFactoryLoader ProviderName="Microsoft.SqlServerCe.Client.3.5"
+                           Loader="UIShell.SqlCe35DbManagerFragment.SqlCeProviderFactoryLoader" />
+  </Extension>-->
+
+  <Extension Point="UIShell.BundleManagementOptions">
+    <BundleManagementOption AllowToStarted="true" AllowToStopped="false" AllowToUninstalled="true" />
+  </Extension>
+</Bundle>

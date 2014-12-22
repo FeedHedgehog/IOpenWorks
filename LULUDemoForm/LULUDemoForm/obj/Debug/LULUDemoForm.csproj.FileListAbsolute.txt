@@ -1,0 +1,12 @@
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\LULUDemoForm.exe.config
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\LULUDemoForm.exe
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\LULUDemoForm.pdb
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\UIShell.iOpenWorks.Bootstrapper.dll
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\UIShell.iOpenWorks.BundleRepository.dll
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\UIShell.OSGi.dll
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\UIShell.OSGi.xml
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\obj\Debug\LULUDemoForm.Properties.Resources.resources
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\obj\Debug\LULUDemoForm.csproj.GenerateResource.Cache
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\obj\Debug\LULUDemoForm.exe
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\obj\Debug\LULUDemoForm.pdb
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\obj\Debug\LULUDemoForm.csprojResolveAssemblyReference.cache

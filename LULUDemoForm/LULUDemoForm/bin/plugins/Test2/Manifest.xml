@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="Test2" Name="Test2" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="Test2.Activator"/>
+  <Runtime>
+    <Assembly Path="bin\Test2.dll"/>
+  </Runtime>
+  <Extension Point="UIShell.Applications">
+		<Application Title="测试二" ToolTip="测试二" Icon="Test2.Resources.shell.png">
+			<Menu Text="UserControl1" ToolTip="UserControl1" Icon="Test2.Resources.shell.png" Class="Test2.UserControl1"/>
+			<Menu Text="Form1" ToolTip="Form1" Icon="Test2.Resources.shell.png" Class="Test2.Form1"/>
+		</Application>
+	</Extension>
+</Bundle>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="EmptyWinFormPlugin" Name="EmptyWinFormPlugin" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="EmptyWinFormPlugin.Activator"/>
+  <Runtime>
+    <Assembly Path="bin\EmptyWinFormPlugin.dll"/>
+  </Runtime>
+  <Extension Point="UIShell.Applications">
+    <Application Title="Ribbon风格" ToolTip="Ribbon风格" Icon="EmptyWinFormPlugin.Resources.DSC_0009.JPG">      
+      <Menu Text="RibbonForm" ToolTip="RibbonForm" Icon="EmptyWinFormPlugin.Resources.DSC_0009.JPG" Class="EmptyWinFormPlugin.RibbonForm"/>
+    </Application>
+  </Extension>
+</Bundle>

@@ -1,0 +1,13 @@
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\DemoMain.exe.config
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\DemoMain.exe
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\DemoMain.pdb
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\UIShell.iOpenWorks.Bootstrapper.dll
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\UIShell.iOpenWorks.BundleRepository.dll
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\UIShell.OSGi.dll
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\UIShell.PageFlowService.dll
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\UIShell.OSGi.xml
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\obj\Debug\DemoMain.csprojResolveAssemblyReference.cache
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\obj\Debug\DemoMain.Properties.Resources.resources
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\obj\Debug\DemoMain.csproj.GenerateResource.Cache
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\obj\Debug\DemoMain.exe
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\obj\Debug\DemoMain.pdb

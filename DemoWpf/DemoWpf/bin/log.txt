@@ -1,0 +1,515 @@
+Fri, 19 Dec 2014 11:31:14 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET global assembly feature is enabled. Thus, the duplicated assembly in local Assembly of Bundle will be replaced by the global assembly in 'bin' folder.
+Fri, 19 Dec 2014 11:31:14 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET enable the supporting for the assemblies with multiple versions. The assembly will be loaded by using Assembly.LoadFile.
+Fri, 19 Dec 2014 11:31:14 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.BundleManagementService, 1.0.0.8' is replaced by global assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:14 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.PageFlowService, 1.0.0.8' is replaced by global assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfAppCenterPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'FirstFloor.ModernUI, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.Aero, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationCore.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXmlLinq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:31:15 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:31:17 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:31:17 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:31:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:33 GMT|   |No Thread Name|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.BundleManagementService.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:40 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73'.
+Fri, 19 Dec 2014 11:31:41 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is starting.
+Fri, 19 Dec 2014 11:31:41 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfShellPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:41 GMT|   |No Thread Name|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:46 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET global assembly feature is enabled. Thus, the duplicated assembly in local Assembly of Bundle will be replaced by the global assembly in 'bin' folder.
+Fri, 19 Dec 2014 11:31:46 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET enable the supporting for the assemblies with multiple versions. The assembly will be loaded by using Assembly.LoadFile.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.BundleManagementService, 1.0.0.8' is replaced by global assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.PageFlowService, 1.0.0.8' is replaced by global assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is starting.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfShellPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfAppCenterPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'FirstFloor.ModernUI, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.Aero, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationCore.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:31:47 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:31:48 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:31:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXmlLinq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:31:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:32:04 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:04 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:04 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:04 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:04 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:04 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:04 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:04 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfAppCenterPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:04 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is stopping.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is stopping.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is stopping.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is stopping.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is stopping.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is stopping.
+Fri, 19 Dec 2014 11:32:07 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:49 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET global assembly feature is enabled. Thus, the duplicated assembly in local Assembly of Bundle will be replaced by the global assembly in 'bin' folder.
+Fri, 19 Dec 2014 11:32:49 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET enable the supporting for the assemblies with multiple versions. The assembly will be loaded by using Assembly.LoadFile.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.BundleManagementService, 1.0.0.8' is replaced by global assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.PageFlowService, 1.0.0.8' is replaced by global assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is starting.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfShellPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfAppCenterPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'FirstFloor.ModernUI, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Active'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'TestWpfPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.Aero, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationCore.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:32:50 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:32:57 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXmlLinq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:32:57 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is stopping.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is stopping.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is stopping.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is stopping.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is stopping.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is stopping.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is stopping.
+Fri, 19 Dec 2014 11:32:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:33:39 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET global assembly feature is enabled. Thus, the duplicated assembly in local Assembly of Bundle will be replaced by the global assembly in 'bin' folder.
+Fri, 19 Dec 2014 11:33:39 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET enable the supporting for the assemblies with multiple versions. The assembly will be loaded by using Assembly.LoadFile.
+Fri, 19 Dec 2014 11:33:39 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.BundleManagementService, 1.0.0.8' is replaced by global assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:33:39 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.PageFlowService, 1.0.0.8' is replaced by global assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is starting.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfShellPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfAppCenterPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'FirstFloor.ModernUI, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Active'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'TestWpfPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.Aero, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationCore.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:33:40 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:33:42 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:42 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:42 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:42 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:42 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:42 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:42 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:42 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:33:54 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXmlLinq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:33:54 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is stopping.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is stopping.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is stopping.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is stopping.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is stopping.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is stopping.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is stopping.
+Fri, 19 Dec 2014 11:33:55 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Resolved'.
+Fri, 19 Dec 2014 11:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET global assembly feature is enabled. Thus, the duplicated assembly in local Assembly of Bundle will be replaced by the global assembly in 'bin' folder.
+Fri, 19 Dec 2014 11:35:19 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET enable the supporting for the assemblies with multiple versions. The assembly will be loaded by using Assembly.LoadFile.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.BundleManagementService, 1.0.0.8' is replaced by global assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.PageFlowService, 1.0.0.8' is replaced by global assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is starting.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfShellPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfAppCenterPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'FirstFloor.ModernUI, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Active'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'TestWpfPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.Aero, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationCore.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:35:20 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:35:22 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXmlLinq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:36:57 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET global assembly feature is enabled. Thus, the duplicated assembly in local Assembly of Bundle will be replaced by the global assembly in 'bin' folder.
+Fri, 19 Dec 2014 11:36:57 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The OSGi.NET enable the supporting for the assemblies with multiple versions. The assembly will be loaded by using Assembly.LoadFile.
+Fri, 19 Dec 2014 11:36:57 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.BundleManagementService, 1.0.0.8' is replaced by global assembly 'UIShell.iOpenWorks.BundleRepository, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:36:57 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Warn|   The local assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261' of bundle 'UIShell.PageFlowService, 1.0.0.8' is replaced by global assembly 'UIShell.PageFlowService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.OSGi.XmlSerializers, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.BundleManagementService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.BundleManagementService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.PageFlowService, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is starting.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfShellPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WpfAppCenterPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'FirstFloor.ModernUI, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'FirstFloor.ModernUI.resources, Version=1.0.3.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfShellPlugin, 1.0.0.7' is in state 'Active'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.WebServiceWrapperService, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'System.Runtime.Remoting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WebServiceWrapperService, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIShell.RemotingManagement, Version=1.2.2.5, Culture=neutral, PublicKeyToken=c86472448ee87261'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.RemotingManagement, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is starting.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'TestWpfPlugin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'TestWpfPlugin, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is starting.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.WpfAppCenterPlugin, 1.0.0.8' is in state 'Active'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Bundle 'UIShell.OSGi.SystemBundle, 1.0.0.0' is in state 'Active'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'UIShell.WpfShellPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.Aero, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationCore.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework.resources, Version=4.0.0.0, Culture=zh-Hans, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'UIAutomationTypes, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.
+Fri, 19 Dec 2014 11:36:58 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemData, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+Fri, 19 Dec 2014 11:37:00 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:37:00 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CN, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:37:00 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:37:00 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-CHS, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:37:00 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:37:00 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:37:00 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:37:00 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Error|   Failed to load assembly 'TestWpfPlugin.resources, Version=1.0.0.0, Culture=zh, PublicKeyToken=null'.
+Fri, 19 Dec 2014 11:37:00 GMT|   |FrameworkThread|UIShell.OSGi.Logger|Debug|   Loaded assembly: 'PresentationFramework-SystemXmlLinq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.

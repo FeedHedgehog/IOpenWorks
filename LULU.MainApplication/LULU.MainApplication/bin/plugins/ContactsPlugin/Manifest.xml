@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="WinForm联系人管理示例" SymbolicName="ContactsPlugin" Version="1.0.0.3" InitializedState="Active">
+  <Activator Type="ContactsPlugin.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\ContactsPlugin.dll" Share="false" />
+    <Dependency BundleSymbolicName="UIShell.DbManagerService" Resolution="Mandatory" />
+  </Runtime>
+  <Extension Point="UIShell.Applications">
+    <Application Title="ContactsPlugin" ToolTip="ContactsPlugin" Icon="ContactsPlugin.Resources.shell.png">
+      <Menu Text="Create Contact" ToolTip="Create a contact" Icon="ContactsPlugin.Resources.shell.png" Class="ContactsPlugin.CreateContactForm" />
+      <Menu Text="View Contacts" ToolTip="View all contacts" Icon="ContactsPlugin.Resources.shell.png" Class="ContactsPlugin.ContactsForm" />
+    </Application>
+  </Extension>
+  <Extension Point="UIShell.DataSources">
+    <DataSource Name="Default" 
+                ConnectionString="data source='{BundleLocation}\App_Data\Contact.sdf';" 
+                ProviderName="Microsoft.SqlServerCe.Client.3.5" 
+                Description="Contact data source." />
+  </Extension>
+</Bundle>

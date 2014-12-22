@@ -1,0 +1,11 @@
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\bin\EmptyWinFormPlugin.dll
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\bin\EmptyWinFormPlugin.pdb
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\bin\UIShell.OSGi.dll
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\bin\UIShell.OSGi.xml
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\obj\Debug\EmptyWinFormPlugin.UserControl1.resources
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\obj\Debug\EmptyWinFormPlugin.csproj.GenerateResource.Cache
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\obj\Debug\EmptyWinFormPlugin.dll
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\obj\Debug\EmptyWinFormPlugin.pdb
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\obj\Debug\EmptyWinFormPlugin.csprojResolveAssemblyReference.cache
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\obj\Debug\EmptyWinFormPlugin.RibbonForm.resources
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\obj\Debug\EmptyWinFormPlugin.dll.licenses

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="OEA模型驱动快速开发内核插件" SymbolicName="UIShell.OEACorePlugin" Version="1.0.0.1" InitializedState="Active" StartLevel="2">
+  <Activator Type="UIShell.OEACorePlugin.BundleActivator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\UIShell.OEACorePlugin.dll" Share="true" />
+    <Assembly Path="bin\Common.dll" Share="true" />
+    <Assembly Path="bin\DbMigration.dll" Share="true" />
+    <Assembly Path="bin\ManagedProperty.dll" Share="true" />
+    <Assembly Path="bin\Microsoft.Practices.Unity.dll" Share="false" />
+    <Assembly Path="bin\OEA.dll" Share="true" />
+  </Runtime>
+</Bundle>

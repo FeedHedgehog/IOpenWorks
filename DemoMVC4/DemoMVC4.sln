@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMVC4", "DemoMVC4\DemoMVC4.csproj", "{47CF3CE3-F9CD-4706-88F5-33B301A639C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMVC4Plugin", "DemoMVC4\Plugins\TestMVC4Plugin\TestMVC4Plugin.csproj", "{0F72C774-4734-4292-904A-91C230D3DCFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47CF3CE3-F9CD-4706-88F5-33B301A639C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47CF3CE3-F9CD-4706-88F5-33B301A639C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47CF3CE3-F9CD-4706-88F5-33B301A639C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47CF3CE3-F9CD-4706-88F5-33B301A639C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F72C774-4734-4292-904A-91C230D3DCFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F72C774-4734-4292-904A-91C230D3DCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F72C774-4734-4292-904A-91C230D3DCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F72C774-4734-4292-904A-91C230D3DCFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

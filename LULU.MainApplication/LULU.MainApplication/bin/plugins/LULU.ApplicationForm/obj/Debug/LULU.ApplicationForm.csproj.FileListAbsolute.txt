@@ -1,0 +1,10 @@
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\LULU.ApplicationForm\bin\LULU.ApplicationForm.dll
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\LULU.ApplicationForm\bin\LULU.ApplicationForm.pdb
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\LULU.ApplicationForm\bin\UIShell.OSGi.dll
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\LULU.ApplicationForm\bin\UIShell.OSGi.xml
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\LULU.ApplicationForm\obj\Debug\LULU.ApplicationForm.UserControl1.resources
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\LULU.ApplicationForm\obj\Debug\LULU.ApplicationForm.Form1.resources
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\LULU.ApplicationForm\obj\Debug\LULU.ApplicationForm.csproj.GenerateResource.Cache
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\LULU.ApplicationForm\obj\Debug\LULU.ApplicationForm.dll
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\LULU.ApplicationForm\obj\Debug\LULU.ApplicationForm.pdb
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\plugins\LULU.ApplicationForm\obj\Debug\LULU.ApplicationForm.csprojResolveAssemblyReference.cache

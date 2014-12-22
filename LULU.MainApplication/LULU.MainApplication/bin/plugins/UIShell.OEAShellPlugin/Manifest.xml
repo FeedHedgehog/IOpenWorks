@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="OEA模型驱动快速开发框架主界面插件" SymbolicName="UIShell.OEAShellPlugin" Version="1.0.0.1" InitializedState="Active" StartLevel="4">
+  <Activator Type="UIShell.OEAShellPlugin.BundleActivator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\Debug\UIShell.OEAShellPlugin.dll" Share="true" />
+    <Dependency BundleSymbolicName="UIShell.OEACorePlugin" Resolution="Mandatory" />
+    <Dependency BundleSymbolicName="UIShell.OEALibraryPlugin" Resolution="Mandatory" />
+  </Runtime>
+  <Extension Point="UIShell.OEAModule">
+    <Module Type="UIShell.OEAShellPlugin.ShellModule" />
+  </Extension>
+</Bundle>

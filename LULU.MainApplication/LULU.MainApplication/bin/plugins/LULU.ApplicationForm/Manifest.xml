@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="LULU.ApplicationForm" Name="LULU.ApplicationForm" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="LULU.ApplicationForm.Activator"/>
+  <Runtime>
+    <Assembly Path="bin\LULU.ApplicationForm.dll"/>
+  </Runtime>
+  <Extension Point="UIShell.Applications">
+		<Application Title="LULU.ApplicationForm" ToolTip="LULU.ApplicationForm" Icon="LULU.ApplicationForm.Resources.shell.png">
+			<Menu Text="UserControl1" ToolTip="UserControl1" Icon="LULU.ApplicationForm.Resources.shell.png" Class="LULU.ApplicationForm.UserControl1"/>
+			<Menu Text="Form1" ToolTip="Form1" Icon="LULU.ApplicationForm.Resources.shell.png" Class="LULU.ApplicationForm.Form1"/>
+		</Application>
+	</Extension>
+</Bundle>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="UIShell.CleanWebWin7Plugin" Name="纯净版 WebWin7 桌面应用" Version="1.0.0.0" InitializedState="Active" StartLevel="4">
+	<Activator Type="UIShell.CleanWebWin7Plugin.Activator"/>
+	<Runtime>
+		<Assembly Path="bin\UIShell.CleanWebWin7Plugin.dll"/>
+		<Dependency BundleSymbolicName="UIShell.WebDesktopService" BundleVersion="1.0.0.0" />
+	</Runtime>
+	<Extension Point="PageFlowService.PageNode">
+		<PageNode Name="MainPage" Priority="50" Value="~/Plugins/UIShell.CleanWebWin7Plugin/Default.aspx" />
+	</Extension>
+
+  <Extension Point="UIShell.BundleManagementOptions">
+    <BundleManagementOption AllowToStarted="true" AllowToStopped="false" AllowToUninstalled="true" />
+  </Extension>
+</Bundle>

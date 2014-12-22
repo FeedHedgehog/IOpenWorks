@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Outlook Navigation Pane Style Settings-->
+<!--Do not change this file manually-->
+<NavigationPaneSettings DiplayedButtonCount="2" ButtonHeight="32" PaneWidth="269" IsShowCollapseButton="True" IsCollapsible="True" OverFlowPanelHeight="32" NavigateBarColorTableIndex="4">
+  <ColorTable>
+    <ContextMenuArrowStyle>Office2007</ContextMenuArrowStyle>
+    <PaintRatio>0.4</PaintRatio>
+    <PaintAngle>90</PaintAngle>
+    <TextColor>-14660215</TextColor>
+    <SelectedTextColor>-16777216</SelectedTextColor>
+    <BorderColor>-10120241</BorderColor>
+    <CaptionTextColor>-15383925</CaptionTextColor>
+    <CaptionBegin>-1839105</CaptionBegin>
+    <CaptionEnd>-5385729</CaptionEnd>
+    <CaptionDescBegin>-1839105</CaptionDescBegin>
+    <CaptionDescEnd>-4137985</CaptionDescEnd>
+    <SeparatorDark>-4137985</SeparatorDark>
+    <SeparatorLight>-1839105</SeparatorLight>
+    <ButtonNormalBegin>-1839105</ButtonNormalBegin>
+    <ButtonNormalMiddleBegin>-3875329</ButtonNormalMiddleBegin>
+    <ButtonNormalMiddleEnd>-5385729</ButtonNormalMiddleEnd>
+    <ButtonNormalEnd>-4137985</ButtonNormalEnd>
+    <ButtonSelectedBegin>-9814</ButtonSelectedBegin>
+    <ButtonSelectedMiddleBegin>-17554</ButtonSelectedMiddleBegin>
+    <ButtonSelectedMiddleEnd>-21697</ButtonSelectedMiddleEnd>
+    <ButtonSelectedEnd>-73350</ButtonSelectedEnd>
+    <ButtonMouseOverBegin>-284</ButtonMouseOverBegin>
+    <ButtonMouseOverMiddleBegin>-5977</ButtonMouseOverMiddleBegin>
+    <ButtonMouseOverMiddleEnd>-10393</ButtonMouseOverMiddleEnd>
+    <ButtonMouseOverEnd>-6498</ButtonMouseOverEnd>
+    <MenuBackColor>-1839105</MenuBackColor>
+  </ColorTable>
+  <EmptyWinFormPlugin Enabled="True" Display="True" Visible="True" Selected="True" OrderNo="0" />
+  <LULU.ApplicationForm Enabled="True" Display="True" Visible="True" Selected="False" OrderNo="1" />
+</NavigationPaneSettings>

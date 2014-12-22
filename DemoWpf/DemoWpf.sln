@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWpf", "DemoWpf\DemoWpf.csproj", "{C9537B26-9707-4F25-A8E1-A3F765F07783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWpfPlugin", "DemoWpf\bin\Plugins\TestWpfPlugin\TestWpfPlugin.csproj", "{97883555-B110-4BFD-8A94-06C4C5A62948}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9537B26-9707-4F25-A8E1-A3F765F07783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9537B26-9707-4F25-A8E1-A3F765F07783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9537B26-9707-4F25-A8E1-A3F765F07783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9537B26-9707-4F25-A8E1-A3F765F07783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97883555-B110-4BFD-8A94-06C4C5A62948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97883555-B110-4BFD-8A94-06C4C5A62948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97883555-B110-4BFD-8A94-06C4C5A62948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97883555-B110-4BFD-8A94-06C4C5A62948}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

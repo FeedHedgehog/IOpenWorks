@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="OEA进销存示例插件" SymbolicName="UIShell.OEAJxcExampleBundle" Version="1.0.0.0" InitializedState="Active" StartLevel="4">
+  <Runtime>
+    <Assembly Path="JXC.dll" Share="true" />
+	<Assembly Path="OEA.RBAC.dll" Share="true" />
+	<Dependency BundleSymbolicName="UIShell.OEAShellPlugin" Resolution="Mandatory" />
+    <Dependency BundleSymbolicName="UIShell.OEACorePlugin" Resolution="Mandatory" />
+    <Dependency BundleSymbolicName="UIShell.OEALibraryPlugin" Resolution="Mandatory" />
+  </Runtime>
+  <Extension Point="UIShell.OEALibrary">
+    <Library Type="JXC.JACLibrary" />
+	<Library Type="OEA.RBAC.RBACLibrary" />
+  </Extension>
+</Bundle>

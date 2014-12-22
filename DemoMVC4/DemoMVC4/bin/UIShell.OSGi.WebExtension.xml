@@ -1,0 +1,576 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UIShell.OSGi.WebExtension</name>
+    </assembly>
+    <members>
+        <member name="M:UIShell.OSGi.WebExtension.BundleRuntimeHttpHostHelper.AddReferencedAssemblies(System.String)">
+            <summary>
+            将插件本地程序集添加到ASP.NET页面预编译引用程序集列表。这个方法一般是内部使用。
+            </summary>
+            <param name="bundleSymbolicName">插件唯一名称。</param>
+            <returns>返回插件所有本地程序集。</returns>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleRuntimeHttpHostHelper.ResetTopLevelReferencedAssemblies(System.Collections.Generic.IList{System.Reflection.Assembly})">
+            <summary>
+            当启动/停止插件时，需要对TopLevelAssemblies重新处理确保同一个程序集的只有最高版本出现在列表中。
+            详细请查看“模块层与类加载设计规范的2.7小节”。
+            </summary>
+            <param name="removedAssemblies"></param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleRuntimeHttpHostHelper.AddReferencedAssembly(System.Reflection.Assembly)">
+            <summary>
+            将Assembly添加到ASP.NET页面预编译引用程序集列表。这个方法一般是内部使用。
+            </summary>
+            <param name="assembly">程序集对象。</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleRuntimeHttpHostHelper.RemoveReferencedAssemlby(System.Reflection.Assembly)">
+            <summary>
+            将程序集从ASP.NET页面预编译引用程序集列表中删除。
+            </summary>
+            <param name="assembly">程序集对象。</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleRuntimeHttpHostHelper.RemoveReferencedAssemblies(System.Collections.Generic.IList{System.Reflection.Assembly})">
+            <summary>
+            将程序集从ASP.NET页面预编译引用程序集列表中删除。
+            </summary>
+            <param name="assemblies">程序集列表。</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleRuntimeHttpHostHelper.LoadControlFromBundle(System.Web.UI.TemplateControl,System.String,System.String)">
+            <summary>
+            从一个插件中加载一个ASP.NET用户控件。
+            </summary>
+            <param name="controlLoader">用户控件加载器，一般为Page类的实例。</param>
+            <param name="path">用户控件路径。</param>
+            <param name="bundleSymbolicName">插件唯一名称。</param>
+            <returns>用户控件</returns>
+            <example>
+            <para>以下代码用于从一个ASP.NET页面Default.aspx.cs的Page_Load中加载一个用户控件。</para>
+            <code>
+            using System;
+            using System.Collections.Generic;
+            using System.Web;
+            using System.Web.UI;
+            using System.Web.UI.WebControls;
+            using UIShell.OSGi.Core.Service;
+            using UIShell.OSGi.WebExtension;
+            using System.Xml;
+            using System.Reflection;
+            
+            namespace UIShell.OSGi.WebShell
+            {
+                public partial class _Default : System.Web.UI.Page
+                {
+                    protected void Page_Load(object sender, EventArgs e)
+                    {
+                        IBundleRuntimeHttpHost bundleRuntimeHttpHost = (IBundleRuntimeHttpHost)Context.ApplicationInstance;
+                        BundleRuntime runtime = bundleRuntimeHttpHost.BundleRuntime;
+                        PlaceHolder1.Controls.Add(bundleRuntimeHttpHost.LoadControlFromBundle(this, "~/Plugins/CommonsPlugin/UserControl1.ascx", "CommonsPlugin"));
+                    }
+                }
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleRuntimeHttpHostHelper.RestartAppDomain">
+            <summary>
+            重启ASP.NET应用域，包括Web站点和BundleRuntime。
+            </summary>
+            <example>
+            <para>以下代码是在一个页面中重启了ASP.NET应用域。</para>
+            <code>
+            using System;
+            using System.Collections.Generic;
+            using System.Web;
+            using System.Web.UI;
+            using System.Web.UI.WebControls;
+            using UIShell.OSGi.Core.Service;
+            using UIShell.OSGi.WebExtension;
+            using System.Xml;
+            using System.Reflection;
+            
+            namespace UIShell.OSGi.WebShell
+            {
+                public partial class _Default : System.Web.UI.Page
+                {
+                    protected void RestartAppDomain_Clicked(object sender, EventArgs e)
+                    {
+                        IBundleRuntimeHttpHost bundleRuntimeHttpHost = (IBundleRuntimeHttpHost)Context.ApplicationInstance;
+                        bundleRuntimeHttpHost.RestartAppDomain();
+                    }
+                }
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleRuntimeHttpHostHelper.RestartAppDomain(UIShell.OSGi.WebExtension.WriteHtmlContentAfterReboot)">
+            <summary>
+            重启ASP.NET应用域，包括Web站点和BundleRuntime，并填写向用户展示的HTML页面。
+            </summary>
+            <param name="writeHtmlContent">向用户展示的HTML页面信息的delegate。</param>
+            <example>
+            <para>以下代码是在一个页面中重启了ASP.NET应用域。</para>
+            
+            <code>
+            <![CDATA[
+            using System;
+            using System.Collections.Generic;
+            using System.Web;
+            using System.Web.UI;
+            using System.Web.UI.WebControls;
+            using UIShell.OSGi.Core.Service;
+            using UIShell.OSGi.WebExtension;
+            using System.Xml;
+            using System.Reflection;
+            
+            namespace UIShell.OSGi.WebShell
+            {
+                public partial class _Default : System.Web.UI.Page
+                {
+                    protected void RestartAppDomain_Clicked(object sender, EventArgs e)
+                    {
+                        IBundleRuntimeHttpHost bundleRuntimeHttpHost = (IBundleRuntimeHttpHost)Context.ApplicationInstance;
+                        bundleRuntimeHttpHost.RestartAppDomain(WriteMessageOnly);
+                    }
+                }
+            }
+            
+            private void WriteMessageOnly(StreamWriter sw)
+            {
+                sw.Write("<HTML><HEAD> <meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\"> <TITLE>关闭浏览器</TITLE> </HEAD>");
+                sw.Write("<style>body{TEXT-ALIGN:center;} .center{MARGIN-RIGHT:auto;MARGIN-LEFT:auto;margin-top:200px;height:200px;width:400px;vertical-align:middle;line-height:40px;}</style>");
+                sw.Write(string.Format("<BODY><div class=\"center\"><p>操作已成功，请关闭浏览器重新访问。</p><p></p></div></BODY></HTML>"));
+            }
+            ]]>
+            </code>
+            </example>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleRuntimeHttpHostHelper.RestartAppDomainOnAssemblyShadowCopyChanged">
+            <summary>
+            当启用了Assembly ShadowCopy功能后，如果原始程序集发生变化后，用于重启AppDomain。
+            </summary>
+        </member>
+        <member name="P:UIShell.OSGi.WebExtension.BundleRuntimeHttpHostHelper.TopLevelReferencedAssemblies">
+            <summary>
+            ASP.NET页面预编译时引用的程序集。
+            </summary>
+        </member>
+        <member name="T:UIShell.OSGi.WebExtension.AssemblyComparer">
+            <summary>
+            按照逆序对Assembly进行排序。
+            </summary>
+        </member>
+        <member name="T:UIShell.OSGi.WebExtension.BundleUrlHelper">
+            <summary>
+            ASP.NET插件路径辅助类。
+            </summary>
+            <example>
+            <code>
+            以下示例用于创建一个连接到某个插件的Default.aspx页面。
+            <![CDATA[
+            <a href="<% =BundleUrlHelper.Content(SimpleBundle.Activator.Bundle, "~/Default.aspx")%>">Default.aspx in SimpleBundle.</a>
+            ]]>
+            </code>
+            </example>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleUrlHelper.Content(UIShell.OSGi.IBundle,System.String)">
+            <summary>
+            获取相对与该插件的页面文件的真实路径。
+            </summary>
+            <param name="bundle">插件实例。</param>
+            <param name="url">URL路径，例如：~/Default.aspx则表示在插件下的Default.aspx页面。</param>
+            <returns>返回真实路径。</returns>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleUrlHelper.Content(System.String,System.String)">
+            <summary>
+            获取相对与该插件的页面文件的真实路径。
+            </summary>
+            <param name="symbolicName">插件特征名称。</param>
+            <param name="url">URL路径，例如：~/Default.aspx则表示在插件下的Default.aspx页面。</param>
+            <returns>返回真实路径。</returns>
+        </member>
+        <member name="T:UIShell.OSGi.WebExtension.IBundleRuntimeHttpHost">
+            <summary>
+            ASP.NET BundleRuntime宿主。用于宿主插件内核框架以及预编译支持。
+            </summary>
+            <example>
+            <para>以下代码展示了如何在一个Page类页面中获取该实例，从而来使用BundleRuntime。</para>
+            <code>
+            using System;
+            using System.Collections.Generic;
+            using System.Web;
+            using System.Web.UI;
+            using System.Web.UI.WebControls;
+            using UIShell.OSGi.Core.Service;
+            using UIShell.OSGi.WebExtension;
+            using System.Xml;
+            using System.Reflection;
+            
+            namespace UIShell.OSGi.WebShell
+            {
+                public partial class _Default : System.Web.UI.Page
+                {
+                    protected void Page_Load(object sender, EventArgs e)
+                    {
+                        // The BundleHttpApplication implements the IBundleRuntimeHttpHost interface.
+                        // Thus, we can get this instance from HttpContext.
+                        IBundleRuntimeHttpHost bundleRuntimeHttpHost = (IBundleRuntimeHttpHost)Context.ApplicationInstance;
+                        BundleRuntime runtime = bundleRuntimeHttpHost.BundleRuntime;
+                    }
+                }
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.IBundleRuntimeHttpHost.AddReferencedAssemblies(System.String)">
+            <summary>
+            将插件本地程序集添加到ASP.NET页面预编译引用程序集列表。这个方法一般是内部使用。
+            </summary>
+            <param name="bundleSymbolicName">插件唯一名称。</param>
+            <returns>返回插件所有本地程序集。</returns>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.IBundleRuntimeHttpHost.AddReferencedAssembly(System.Reflection.Assembly)">
+            <summary>
+            将Assembly添加到ASP.NET页面预编译引用程序集列表。这个方法一般是内部使用。
+            </summary>
+            <param name="assembly">程序集对象。</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.IBundleRuntimeHttpHost.RemoveReferencedAssemlby(System.Reflection.Assembly)">
+            <summary>
+            将程序集从ASP.NET页面预编译引用程序集列表中删除。
+            </summary>
+            <param name="assembly">程序集对象。</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.IBundleRuntimeHttpHost.RemoveReferencedAssemblies(System.Collections.Generic.IList{System.Reflection.Assembly})">
+            <summary>
+            将程序集从ASP.NET页面预编译引用程序集列表中删除。
+            </summary>
+            <param name="assemblies">程序集列表。</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.IBundleRuntimeHttpHost.LoadControlFromBundle(System.Web.UI.TemplateControl,System.String,System.String)">
+            <summary>
+            从一个插件中加载一个ASP.NET用户控件。
+            </summary>
+            <param name="controlLoader">用户控件加载器，一般为Page类的实例。</param>
+            <param name="path">用户控件路径。</param>
+            <param name="bundleSymbolicName">插件唯一名称。</param>
+            <returns>用户控件</returns>
+            <example>
+            <para>以下代码用于从一个ASP.NET页面Default.aspx.cs的Page_Load中加载一个用户控件。</para>
+            <code>
+            using System;
+            using System.Collections.Generic;
+            using System.Web;
+            using System.Web.UI;
+            using System.Web.UI.WebControls;
+            using UIShell.OSGi.Core.Service;
+            using UIShell.OSGi.WebExtension;
+            using System.Xml;
+            using System.Reflection;
+            
+            namespace UIShell.OSGi.WebShell
+            {
+                public partial class _Default : System.Web.UI.Page
+                {
+                    protected void Page_Load(object sender, EventArgs e)
+                    {
+                        IBundleRuntimeHttpHost bundleRuntimeHttpHost = (IBundleRuntimeHttpHost)Context.ApplicationInstance;
+                        BundleRuntime runtime = bundleRuntimeHttpHost.BundleRuntime;
+                        PlaceHolder1.Controls.Add(bundleRuntimeHttpHost.LoadControlFromBundle(this, "~/Plugins/CommonsPlugin/UserControl1.ascx", "CommonsPlugin"));
+                    }
+                }
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.IBundleRuntimeHttpHost.RestartAppDomain">
+            <summary>
+            重启ASP.NET应用域，包括Web站点和BundleRuntime。
+            </summary>
+            <example>
+            <para>以下代码是在一个页面中重启了ASP.NET应用域。</para>
+            <code>
+            using System;
+            using System.Collections.Generic;
+            using System.Web;
+            using System.Web.UI;
+            using System.Web.UI.WebControls;
+            using UIShell.OSGi.Core.Service;
+            using UIShell.OSGi.WebExtension;
+            using System.Xml;
+            using System.Reflection;
+            
+            namespace UIShell.OSGi.WebShell
+            {
+                public partial class _Default : System.Web.UI.Page
+                {
+                    protected void RestartAppDomain_Clicked(object sender, EventArgs e)
+                    {
+                        IBundleRuntimeHttpHost bundleRuntimeHttpHost = (IBundleRuntimeHttpHost)Context.ApplicationInstance;
+                        bundleRuntimeHttpHost.RestartAppDomain();
+                    }
+                }
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.IBundleRuntimeHttpHost.RestartAppDomain(UIShell.OSGi.WebExtension.WriteHtmlContentAfterReboot)">
+            <summary>
+            重启ASP.NET应用域，包括Web站点和BundleRuntime，并填写向用户展示的HTML页面。
+            </summary>
+            <param name="writeHtmlContent">向用户展示的HTML页面信息的delegate。</param>
+            <example>
+            <para>以下代码是在一个页面中重启了ASP.NET应用域。</para>
+            
+            <code>
+            <![CDATA[
+            using System;
+            using System.Collections.Generic;
+            using System.Web;
+            using System.Web.UI;
+            using System.Web.UI.WebControls;
+            using UIShell.OSGi.Core.Service;
+            using UIShell.OSGi.WebExtension;
+            using System.Xml;
+            using System.Reflection;
+            
+            namespace UIShell.OSGi.WebShell
+            {
+                public partial class _Default : System.Web.UI.Page
+                {
+                    protected void RestartAppDomain_Clicked(object sender, EventArgs e)
+                    {
+                        IBundleRuntimeHttpHost bundleRuntimeHttpHost = (IBundleRuntimeHttpHost)Context.ApplicationInstance;
+                        bundleRuntimeHttpHost.RestartAppDomain(WriteMessageOnly);
+                    }
+                }
+            }
+            
+            private void WriteMessageOnly(StreamWriter sw)
+            {
+                sw.Write("<HTML><HEAD> <meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\"> <TITLE>关闭浏览器</TITLE> </HEAD>");
+                sw.Write("<style>body{TEXT-ALIGN:center;} .center{MARGIN-RIGHT:auto;MARGIN-LEFT:auto;margin-top:200px;height:200px;width:400px;vertical-align:middle;line-height:40px;}</style>");
+                sw.Write(string.Format("<BODY><div class=\"center\"><p>操作已成功，请关闭浏览器重新访问。</p><p></p></div></BODY></HTML>"));
+            }
+            ]]>
+            </code>
+            </example>
+        </member>
+        <member name="P:UIShell.OSGi.WebExtension.IBundleRuntimeHttpHost.BundleRuntime">
+            <summary>
+            Bundle运行时实例。
+            </summary>
+        </member>
+        <member name="P:UIShell.OSGi.WebExtension.IBundleRuntimeHttpHost.TopLevelReferencedAssemblies">
+            <summary>
+            ASP.NET页面预编译时引用的程序集。
+            </summary>
+        </member>
+        <member name="T:UIShell.OSGi.WebExtension.WriteHtmlContentAfterReboot">
+            <summary>
+            重启系统后，向用户展示的HTML页面信息的delegate。
+            </summary>
+            <param name="sw">HTML页面的StreamWriter。</param>
+        </member>
+        <member name="T:UIShell.OSGi.WebExtension.BundlePageHandlerFactory">
+            <summary>
+            该类是Web Bundle中ASPX页面的PageHandlerFacgtory。它用于辅助ASP.NET运行时动态编译ASPX页面。基于UIOSP的Web应用程序我们需要修改Web.config，从而使对ASPX页面的请求
+            交给BundlePageHandlerFactory来处理，而不是默认的PageHandlerFactory。
+            <example>
+            <para>下面是一个使用该类的Web.config配置。</para>
+            <code>
+            <![CDATA[
+            <?xml version="1.0" encoding="utf-8"?>
+            <configuration>
+                <appSettings/>
+                <connectionStrings/>
+              
+                <system.web>
+                  <compilation debug="true"></compilation>
+            	  
+                  <httpHandlers>
+                    <remove path="*.aspx" verb="*"/>
+                    <add path="*.aspx" verb="*" type="UIShell.OSGi.WebExtension.BundlePageHandlerFactory"/>
+                  </httpHandlers>
+                </system.web>
+            </configuration>
+            ]]>
+            </code>
+            </example>
+            </summary>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundlePageHandlerFactory.GetHandler(System.Web.HttpContext,System.String,System.String,System.String)">
+            <summary>
+            将插件的一个ASP.NET页面编译并构建成一个IHttpHandler实例。
+            </summary>
+            <param name="context">HttpContext。</param>
+            <param name="requestType">请求类型。</param>
+            <param name="virtualPath">页面虚拟路径。</param>
+            <param name="path">页面物理路径。</param>
+            <returns>IHttpHandler实例。</returns>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundlePageHandlerFactory.HandleException(System.Web.HttpContext,System.String,System.Exception)">
+            <summary>
+            处理异常。
+            </summary>
+            <param name="context">HttpContext。</param>
+            <param name="requestType">请求类型。</param>
+            <param name="e">异常。</param>
+            <returns>IHttpHandler实例，或者直接抛出异常。</returns>
+        </member>
+        <member name="P:UIShell.OSGi.WebExtension.BundlePageHandlerFactory.ErrorHandlerPage">
+            <summary>
+            当系统出现无法处理的错误时，对应的错误处理页面。
+            </summary>
+        </member>
+        <member name="P:UIShell.OSGi.WebExtension.BundlePageHandlerFactory.FrameworkBusyHandlerPage">
+            <summary>
+            当系统正在启动/停止/已经停止时，用于提示用户等待或者启动。
+            </summary>
+        </member>
+        <member name="P:UIShell.OSGi.WebExtension.BundlePageHandlerFactory.DefaultPage">
+            <summary>
+            默认首页。
+            </summary>
+        </member>
+        <member name="P:UIShell.OSGi.WebExtension.BundlePageHandlerFactory.CurrentErrorMessage">
+            <summary>
+            当前错误信息。
+            </summary>
+        </member>
+        <member name="T:UIShell.OSGi.WebExtension.BundleHttpApplication">
+            <summary>
+            BundleHttpApplication是一个宿主了BundleRuntime的HttpApplication，它实现了IBundleRuntimeHttpHost接口。
+            我们可以在ASP.NET的页面中来获取该实例，从而来获取IBundleRuntimeHttpHost接口的实例。这样也可以
+            获得BundleRuntime实例，并使用它提供的方法来从插件中正确加载一个用户控件。如果你仅需要获取BundleRuntime
+            实例的话，也可以通过BundleRuntime.Instance这个静态属性。
+            </summary>
+            <example>
+            <para>在基于UIOSP的Web应用程序，您需要使Global类继承于BundleHttpApplication，而不是HttpApplication。</para>
+            <code>
+            using System;
+            using System.Collections.Generic;
+            using System.Linq;
+            using System.Web;
+            using System.Web.Security;
+            using System.Web.SessionState;
+            using UIShell.OSGi.WebExtension;
+            
+            namespace MovieStore
+            {
+                public class Global : BundleHttpApplication
+                {
+                }
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleHttpApplication.Application_Start(System.Object,System.EventArgs)">
+            <summary>
+            应用启动时处理函数。该函数用于初始化TopLevelReferncedAssemblies，并将UIShell.OSGi和UIShell.OSGi.WebExtension这两个程序集添加到该属性。
+            同时，启动Bundle运行时。
+            </summary>
+            <param name="sender">Sender。</param>
+            <param name="e">事件参数。</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleHttpApplication.StateTimeoutToRestart(UIShell.OSGi.BundleRuntimeState)">
+            <summary>
+            Restart the website if the bundle runtime state is still in specified state.
+            </summary>
+            <param name="expectedState">Specified state.</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleHttpApplication.Application_End(System.Object,System.EventArgs)">
+            <summary>
+            当应用停止时，停止Bundle运行时。
+            </summary>
+            <param name="sender">Sender。</param>
+            <param name="e">事件参数。</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleHttpApplication.AddPreDefinedRefAssemblies">
+            <summary>
+            添加预定义的引用程序集。目前只有UIShell.OSGi和UIShell.OSGi.WebExtension。
+            </summary>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleHttpApplication.AddReferencedAssemblies(System.String)">
+            <summary>
+            将插件本地程序集添加到ASP.NET页面预编译引用程序集列表。这个方法一般是内部使用。
+            </summary>
+            <param name="bundleSymbolicName">插件唯一名称。</param>
+            <returns>返回插件所有本地程序集。</returns>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleHttpApplication.RemoveReferencedAssemblies(System.Collections.Generic.IList{System.Reflection.Assembly})">
+            <summary>
+            将程序集从ASP.NET页面预编译引用程序集列表中删除。
+            </summary>
+            <param name="assemblies">程序集列表。</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleHttpApplication.AddReferencedAssembly(System.Reflection.Assembly)">
+            <summary>
+            将Assembly添加到ASP.NET页面预编译引用程序集列表。这个方法一般是内部使用。
+            </summary>
+            <param name="assembly">程序集对象。</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleHttpApplication.RemoveReferencedAssemlby(System.Reflection.Assembly)">
+            <summary>
+            将程序集从ASP.NET页面预编译引用程序集列表中删除。
+            </summary>
+            <param name="assembly">程序集对象。</param>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleHttpApplication.LoadControlFromBundle(System.Web.UI.TemplateControl,System.String,System.String)">
+            <summary>
+            从一个插件中加载一个ASP.NET用户控件。
+            </summary>
+            <param name="controlLoader">用户控件加载器，一般为Page类的实例。</param>
+            <param name="path">用户控件路径。</param>
+            <param name="bundleSymbolicName">插件唯一名称。</param>
+            <returns>用户控件</returns>
+            <example>
+            <para>以下代码用于从一个ASP.NET页面Default.aspx.cs的Page_Load中加载一个用户控件。</para>
+            <code>
+            using System;
+            using System.Collections.Generic;
+            using System.Web;
+            using System.Web.UI;
+            using System.Web.UI.WebControls;
+            using UIShell.OSGi.Core.Service;
+            using UIShell.OSGi.WebExtension;
+            using System.Xml;
+            using System.Reflection;
+            
+            namespace UIShell.OSGi.WebShell
+            {
+                public partial class _Default : System.Web.UI.Page
+                {
+                    protected void Page_Load(object sender, EventArgs e)
+                    {
+                        IBundleRuntimeHttpHost bundleRuntimeHttpHost = (IBundleRuntimeHttpHost)Context.ApplicationInstance;
+                        BundleRuntime runtime = bundleRuntimeHttpHost.BundleRuntime;
+                        PlaceHolder1.Controls.Add(bundleRuntimeHttpHost.LoadControlFromBundle(this, "~/Plugins/CommonsPlugin/UserControl1.ascx", "CommonsPlugin"));
+                    }
+                }
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleHttpApplication.RestartAppDomain">
+            <summary>
+            重启ASP.NET应用域，包括BundleRuntime。当卸载一个模块或者更新一个模块时，需要重新启动应用域，因为旧的程序集会一直保留在BundleRuntime所在应用域直到应用域重启。
+            </summary>
+        </member>
+        <member name="M:UIShell.OSGi.WebExtension.BundleHttpApplication.RestartAppDomain(UIShell.OSGi.WebExtension.WriteHtmlContentAfterReboot)">
+            <summary>
+            重启ASP.NET应用域，包括BundleRuntime。当卸载一个模块或者更新一个模块时，需要重新启动应用域，因为旧的程序集会一直保留在BundleRuntime所在应用域直到应用域重启。
+            </summary>
+        </member>
+        <member name="P:UIShell.OSGi.WebExtension.BundleHttpApplication.BundleRuntime">
+            <summary>
+            Bundle运行时实例。
+            </summary>
+        </member>
+        <member name="P:UIShell.OSGi.WebExtension.BundleHttpApplication.TopLevelReferencedAssemblies">
+            <summary>
+            ASP.NET页面预编译时引用的程序集。
+            </summary>
+        </member>
+    </members>
+</doc>

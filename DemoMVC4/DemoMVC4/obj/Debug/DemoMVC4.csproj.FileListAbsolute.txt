@@ -1,0 +1,14 @@
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\bin\DemoMVC4.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\bin\DemoMVC4.pdb
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\bin\UIShell.iOpenWorks.Bootstrapper.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\bin\UIShell.iOpenWorks.BundleRepository.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\bin\UIShell.OSGi.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\bin\UIShell.OSGi.MvcWebExtension.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\bin\UIShell.OSGi.WebExtension.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\bin\UIShell.PageFlowService.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\bin\UIShell.OSGi.xml
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\bin\UIShell.OSGi.WebExtension.xml
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\obj\Debug\DemoMVC4.Properties.Resources.resources
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\obj\Debug\DemoMVC4.csproj.GenerateResource.Cache
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\obj\Debug\DemoMVC4.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\obj\Debug\DemoMVC4.pdb

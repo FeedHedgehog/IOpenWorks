@@ -1,0 +1,217 @@
+﻿body
+{
+    background: url('../images/win7-desktop-bg.jpg');
+    font-family: 微软雅黑, tahoma, helvetica, clean, sans-serif;
+}
+
+#iconContainer
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    background: url('../images/toolbar_bg.png');
+}
+
+.iconDiv
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+div .iconBarDiv
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.iconDiv:hover
+{
+    background: url('../images/app_mouseover_bg.png') no-repeat scroll center top transparent;
+    cursor: hand;
+}
+
+div .iconBarDiv:hover, .iconBarDivHover
+{
+    background: url('../images/appbar_mouseover_bg.png') no-repeat scroll center top transparent;
+    cursor: hand;
+}
+
+.iconDiv img
+{
+    margin: 5px 15px 0px 15px;
+    height: 50px;
+    width: 50px;
+}
+
+div .iconBarDiv img
+{
+    margin: 5px 15px 5px 5px;
+    height: 40px;
+    width: 40px;
+}
+
+#iconText
+{
+    font-size: 14px;
+    font-weight: bold;
+    clear: both;
+    margin: 0 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.login
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 16px;
+    color: White;
+    width: 400px;
+}
+
+.login li
+{
+    list-style-type: none;
+    margin: 0px 0px 50px 0px;
+    display: block;
+}
+
+#loginImage
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    font-size: 16px;
+    color: White;
+    width: 150px;
+}
+
+img
+{
+    vertical-align: middle;
+}
+
+.textbox
+{
+    margin-left: 50px;
+    margin-top: -25px;
+}
+
+.textbox input
+{
+    width: 220px;
+    height: 22px;
+    font-size: 16px;
+    border: 1px solid #666666;
+}
+
+#loginButtonDiv
+{
+    margin-left: 300px;
+    margin-top: -100px;
+}
+
+#HelpImageDiv
+{
+    margin-left: 205px;
+    margin-top: 40px;
+}
+
+#loginButtonDiv input
+{
+    width: 50px;
+    vertical-align: middle;
+}
+
+#DesktopWindowTitle
+{
+    height: 35px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #0033ab;
+    background: url('../images/navigateTitle_bg.png') no-repeat bottom left;
+}
+
+.password
+{
+    height: 120px;
+    font-size: 14px;
+}
+
+.password li
+{
+    list-style-type: none;
+    float: left;
+    margin: 0px 0px 20px 0px;
+    display: block;
+}
+
+.password ul
+{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.password ul li input
+{
+    width: 120px;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+#error
+{
+    color: Red;
+}
+
+#button input
+{
+    width: 50px;
+    margin-left: 150px;
+}
+
+.spliter
+{
+    margin-left: 10px;
+    float: left;
+}
+
+.nav:link
+{
+	color: #FFF;
+	text-decoration: none;
+}
+.nav:visited
+{
+	color: #FFF;
+	text-decoration: none;
+}
+.nav:hover
+{
+	color: #FFF;
+	text-decoration: underline;
+}
+.nav:active
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.bigImgCss
+{
+	/*帮助按钮中图片样式*/
+	vertical-align: middle;
+	border-style: none;
+	height: 30px;
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="OEA模型驱动快速开发内核扩展插件" SymbolicName="UIShell.OEALibraryPlugin" Version="1.0.0.1" InitializedState="Active" StartLevel="3">
+  <Activator Type="UIShell.OEALibraryPlugin.BundleActivator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\AvalonDock.dll" Share="true" />
+    <Assembly Path="bin\OEA.Library.dll" Share="true" />
+    <Assembly Path="bin\OEA.Module.dll" Share="true" />
+    <Assembly Path="bin\OEA.Module.WPF.dll" Share="true" />
+    <Assembly Path="bin\OEA.Web.Meta.dll" Share="true" />
+    <Assembly Path="bin\OEA.WPF.Controls.dll" Share="false" />
+    <Assembly Path="bin\UIShell.OEALibraryPlugin.dll" Share="true" />
+    <Assembly Path="bin\Wpf.SplitButton.dll" Share="true" />
+    <Assembly Path="bin\WPFToolkit.Extended.dll" Share="true" />
+    <Dependency BundleSymbolicName="UIShell.OEACorePlugin" Resolution="Mandatory" />
+  </Runtime>
+  <Extension Point="UIShell.OEAModule">
+    <Module Type="OEA.Module.WPF.WPFModule" />
+  </Extension>
+  <Extension Point="UIShell.OEALibrary">
+    <Library Type="OEA.Library.OEALibrary" />
+  </Extension>
+</Bundle>

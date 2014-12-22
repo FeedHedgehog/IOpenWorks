@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="Outlook 风格 WinForm 通用界面框架插件" SymbolicName="UIShell.WinFormShellPlugin" Version="1.0.0.0" InitializedState="Active" StartLevel="2">
+	<Activator Type="UIShell.WinFormShellPlugin.Activator" Policy="Immediate" />
+	<Runtime>
+		<Assembly Path="bin\UIShell.WinFormShellPlugin.dll" Share="false" />
+		<Assembly Path="bin\MT.WindowsUI.dll" Share="false" />
+		<Assembly Path="bin\SkinForm.dll" Share="false" />
+		<Assembly Path="bin\vtTab.dll" Share="false" />
+	</Runtime>
+
+  <Extension Point="PageFlowService.PageNode">
+    <PageNode Name="MainPage" Priority="50" Value="UIShell.WinFormShellPlugin.OutlookStyleMainForm" />
+  </Extension>
+  <Extension Point="UIShell.BundleManagementOptions">
+    <BundleManagementOption AllowToStarted="true" AllowToStopped="false" AllowToUninstalled="true" />
+  </Extension>
+</Bundle>

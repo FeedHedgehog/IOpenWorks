@@ -1,0 +1,9 @@
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\plugins\TestPlugin\bin\TestPlugin.dll
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\plugins\TestPlugin\bin\TestPlugin.pdb
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\plugins\TestPlugin\bin\UIShell.OSGi.dll
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\plugins\TestPlugin\bin\UIShell.OSGi.xml
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\plugins\TestPlugin\obj\Debug\TestPlugin.UserControl1.resources
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\plugins\TestPlugin\obj\Debug\TestPlugin.Form1.resources
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\plugins\TestPlugin\obj\Debug\TestPlugin.csproj.GenerateResource.Cache
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\plugins\TestPlugin\obj\Debug\TestPlugin.dll
+C:\Users\liulu\Desktop\TEST\DemoMain\DemoMain\bin\plugins\TestPlugin\obj\Debug\TestPlugin.pdb

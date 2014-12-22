@@ -1,0 +1,9 @@
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\Plugins\TestMVC4Plugin\bin\TestMVC4Plugin.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\Plugins\TestMVC4Plugin\bin\TestMVC4Plugin.pdb
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\Plugins\TestMVC4Plugin\bin\UIShell.OSGi.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\Plugins\TestMVC4Plugin\bin\UIShell.OSGi.MvcWebExtension.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\Plugins\TestMVC4Plugin\bin\UIShell.OSGi.WebExtension.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\Plugins\TestMVC4Plugin\bin\UIShell.OSGi.xml
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\Plugins\TestMVC4Plugin\bin\UIShell.OSGi.WebExtension.xml
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\Plugins\TestMVC4Plugin\obj\Debug\TestMVC4Plugin.dll
+C:\Users\liulu\Desktop\TEST\DemoMVC4\DemoMVC4\Plugins\TestMVC4Plugin\obj\Debug\TestMVC4Plugin.pdb

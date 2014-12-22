@@ -1,0 +1,17 @@
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\DemoWpf.exe.config
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\DemoWpf.exe
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\DemoWpf.pdb
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\UIShell.iOpenWorks.Bootstrapper.dll
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\UIShell.iOpenWorks.BundleRepository.dll
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\UIShell.OSGi.dll
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\UIShell.PageFlowService.dll
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\UIShell.OSGi.xml
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\obj\Debug\DemoWpf.csprojResolveAssemblyReference.cache
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\obj\Debug\App.g.cs
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\obj\Debug\DemoWpf_Content.g.cs
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\obj\Debug\DemoWpf_MarkupCompile.cache
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\obj\Debug\DemoWpf.g.resources
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\obj\Debug\DemoWpf.Properties.Resources.resources
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\obj\Debug\DemoWpf.csproj.GenerateResource.Cache
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\obj\Debug\DemoWpf.exe
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\obj\Debug\DemoWpf.pdb

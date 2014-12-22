@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Outlook Navigation Pane Style Settings-->
+<!--Do not change this file manually-->
+<NavigationPaneSettings DiplayedButtonCount="4" ButtonHeight="32" PaneWidth="262" IsShowCollapseButton="True" IsCollapsible="True" OverFlowPanelHeight="32" NavigateBarColorTableIndex="2">
+  <ColorTable>
+    <ContextMenuArrowStyle>Office2003</ContextMenuArrowStyle>
+    <PaintRatio>0.5</PaintRatio>
+    <PaintAngle>90</PaintAngle>
+    <TextColor>-16777216</TextColor>
+    <SelectedTextColor>-16777216</SelectedTextColor>
+    <BorderColor>-10198649</BorderColor>
+    <CaptionTextColor>-16777216</CaptionTextColor>
+    <CaptionBegin>-2105110</CaptionBegin>
+    <CaptionEnd>-10198649</CaptionEnd>
+    <CaptionDescBegin>-2105110</CaptionDescBegin>
+    <CaptionDescEnd>-6908750</CaptionDescEnd>
+    <SeparatorDark>-6908750</SeparatorDark>
+    <SeparatorLight>-2105110</SeparatorLight>
+    <ButtonNormalBegin>-2105110</ButtonNormalBegin>
+    <ButtonNormalMiddleBegin>-4276527</ButtonNormalMiddleBegin>
+    <ButtonNormalMiddleEnd>-4276527</ButtonNormalMiddleEnd>
+    <ButtonNormalEnd>-6908750</ButtonNormalEnd>
+    <ButtonSelectedBegin>-269168</ButtonSelectedBegin>
+    <ButtonSelectedMiddleBegin>-672171</ButtonSelectedMiddleBegin>
+    <ButtonSelectedMiddleEnd>-672171</ButtonSelectedMiddleEnd>
+    <ButtonSelectedEnd>-1009383</ButtonSelectedEnd>
+    <ButtonMouseOverBegin>-552</ButtonMouseOverBegin>
+    <ButtonMouseOverMiddleBegin>-270696</ButtonMouseOverMiddleBegin>
+    <ButtonMouseOverMiddleEnd>-270696</ButtonMouseOverMiddleEnd>
+    <ButtonMouseOverEnd>-474529</ButtonMouseOverEnd>
+    <MenuBackColor>-131587</MenuBackColor>
+  </ColorTable>
+  <Test2 Enabled="True" Display="True" Visible="True" Selected="True" OrderNo="0" />
+  <TestPlugin Enabled="True" Display="True" Visible="True" Selected="False" OrderNo="1" />
+  <Test3 Enabled="True" Display="True" Visible="True" Selected="False" OrderNo="2" />
+  <LULU.FrmMain Enabled="True" Display="True" Visible="True" Selected="False" OrderNo="3" />
+</NavigationPaneSettings>

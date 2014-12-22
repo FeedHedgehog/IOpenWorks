@@ -1,0 +1,12 @@
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\bin\LULU.FrmMain.dll
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\bin\LULU.FrmMain.pdb
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\bin\UIShell.OSGi.dll
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\bin\UIShell.OSGi.xml
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\obj\Debug\LULU.FrmMain.Form1.resources
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\obj\Debug\LULU.FrmMain.csproj.GenerateResource.Cache
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\obj\Debug\LULU.FrmMain.dll
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\obj\Debug\LULU.FrmMain.pdb
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\obj\Debug\LULU.FrmMain.dll.licenses
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\obj\Debug\LULU.FrmMain.MainForm.resources
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\obj\Debug\LULU.FrmMain.MainFormStack.resources
+C:\Users\liulu\Desktop\TEST\LULUDemoForm\LULUDemoForm\bin\plugins\LULU.FrmMain\obj\Debug\LULU.FrmMain.csprojResolveAssemblyReference.cache

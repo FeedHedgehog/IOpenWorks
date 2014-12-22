@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="WPF  插件中心插件" SymbolicName="UIShell.WpfAppCenterPlugin" Version="1.0.0.8" InitializedState="Active">
+  <Activator Type="UIShell.WpfAppCenterPlugin.BundleActivator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\UIShell.WpfAppCenterPlugin.dll" Share="false" />
+    <Assembly Path="bin\Microsoft.Windows.Shell.dll" Share="false" />
+    <Assembly Path="bin\FirstFloor.ModernUI.dll" Share="false" />
+    <Dependency BundleSymbolicName="UIShell.BundleManagementService" Resolution="Mandatory" />
+  </Runtime>
+  <Extension Point="PageFlowService.PageNode">
+    <PageNode Name="AppCenterPage" Priority="50" Value="UIShell.WpfAppCenterPlugin.AppCenterWindow" />
+  </Extension>
+  <Extension Point="UIShell.WpfShellPlugin.LinkGroups">
+    <LinkGroup DisplayName="插件管理" DefaultContentSource="UIShell.WpfAppCenterPlugin.BundleManagementUserControl" GroupName="Settings" IsTitleLink="True">
+      <Link DisplayName="插件管理" Source="UIShell.WpfAppCenterPlugin.BundleManagementUserControl" />
+      <TabLink DisplayName="插件中心" DefaultContentSource="UIShell.WpfAppCenterPlugin.AppCenterUserControl" Layout="Tab">
+        <Link DisplayName="公共仓库" Source="UIShell.WpfAppCenterPlugin.AppCenterUserControl" />
+        <Link DisplayName="私有仓库" Source="UIShell.WpfAppCenterPlugin.PrivateAppCenterUserControl" />
+      </TabLink>
+    </LinkGroup>
+  </Extension>
+  <Extension Point="UIShell.BundleManagementOptions">
+    <BundleManagementOption AllowToStarted="true" AllowToStopped="false" AllowToUninstalled="false" />
+  </Extension>
+</Bundle>

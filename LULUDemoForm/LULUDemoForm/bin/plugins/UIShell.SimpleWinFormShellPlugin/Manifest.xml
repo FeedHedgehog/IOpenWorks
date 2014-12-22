@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="UIShell.SimpleWinFormShellPlugin" Name="UIShell.SimpleWinFormShellPlugin" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="UIShell.SimpleWinFormShellPlugin.Activator"/>
+  <Runtime>
+    <Assembly Path="bin\UIShell.SimpleWinFormShellPlugin.dll"/>
+  </Runtime>
+  <!--
+  <Extension Point="UIShell.Applications">
+    <Application Title="系统管理" ToolTip="系统管理" 
+        Icon="UIShell.WinFormAppCenterPlugin.Resources.shell.png">
+      <Menu Text="插件中心" ToolTip="插件中心" 
+        Icon="UIShell.WinFormAppCenterPlugin.Resources.shell.png" 
+        Class="UIShell.WinFormAppCenterPlugin.AppCenterUserControl"/>
+      <Menu Text="插件管理" ToolTip="插件管理" 
+        Icon="UIShell.WinFormAppCenterPlugin.Resources.shell.png" 
+        Class="UIShell.WinFormAppCenterPlugin.BundleManagementUserControl"/>
+    </Application>
+  </Extension>
+  -->
+  <Extension Point="PageFlowService.PageNode">
+    <PageNode Name="MainPage" Priority="40" Value="UIShell.SimpleWinFormShellPlugin.MainForm" />
+  </Extension>
+  
+  <!--<Extension Point="UIShell.BundleManagementOptions">
+    <BundleManagementOption AllowToStarted="true" AllowToStopped="false" AllowToUninstalled="true" />
+  </Extension>-->
+</Bundle>

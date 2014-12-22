@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="TestWpfPlugin" SymbolicName="TestWpfPlugin" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="TestWpfPlugin.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin\TestWpfPlugin.dll" Share="false" />
+  </Runtime>
+  <Extension Point="UIShell.WpfShellPlugin.LinkGroups">
+    <LinkGroup DisplayName="TestWpfPlugin" DefaultContentSource="TestWpfPlugin.UserControl1">
+      <Link DisplayName="UserControl1" Source="TestWpfPlugin.UserControl1" />
+      <Link DisplayName="UserControl2" Source="TestWpfPlugin.UserControl2" />
+    </LinkGroup>
+  </Extension>
+</Bundle>

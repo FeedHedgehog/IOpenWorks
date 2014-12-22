@@ -1,0 +1,13 @@
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\LULU.MainApplication.exe.config
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\LULU.MainApplication.exe
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\LULU.MainApplication.pdb
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\UIShell.iOpenWorks.Bootstrapper.dll
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\UIShell.iOpenWorks.BundleRepository.dll
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\UIShell.OSGi.dll
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\UIShell.PageFlowService.dll
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\bin\UIShell.OSGi.xml
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\obj\Debug\LULU.MainApplication.csprojResolveAssemblyReference.cache
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\obj\Debug\LULU.MainApplication.Properties.Resources.resources
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\obj\Debug\LULU.MainApplication.csproj.GenerateResource.Cache
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\obj\Debug\LULU.MainApplication.exe
+C:\Users\liulu\Desktop\TEST\LULU.MainApplication\LULU.MainApplication\obj\Debug\LULU.MainApplication.pdb

@@ -1,0 +1,226 @@
+﻿body
+{
+    font-family: 微软雅黑, tahoma, helvetica, clean, sans-serif;
+    font-size: 16px;
+}
+
+.title
+{
+    margin-left: 0px;
+    margin-top: 20px;
+    border: dotted 1px #000;
+    height: auto !important;
+    min-height: 70px; 
+    *height: 70px;
+    font-size: 14px;
+}
+
+.item
+{
+    height: 50px;
+    margin: 20px 0px 0px 30px;
+    float: left;
+}
+
+.itemright
+{
+    height: 50px;
+    margin: 20px 0px 0px 0px;
+    float: right;
+}
+
+.floatright
+{
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.error
+{
+    color: Red;
+}
+
+.PagerCss TD A
+{
+    margin-left: 15px;
+}
+
+.PagerCss TD SPAN
+{
+    font-weight: bold;
+    font-size: 15px;
+    color: red;
+}
+
+#helpText
+{
+    display: none;
+}
+
+#helpIcon
+{
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav:link
+{
+    color: #288ed0; /*超链接*/
+    text-decoration: none;
+}
+
+.nav:visited
+{
+    color: #288ed0;
+    text-decoration: none;
+}
+
+.nav:hover
+{
+    color: #285FFF;
+    text-decoration: underline;
+}
+
+.nav:active
+{
+    color: #288ed0;
+    text-decoration: none;
+}
+
+/*GridView头部超链接*/
+.linknav:link
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.linknav:visited
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.linknav:hover
+{
+    color: #FFFFCA;
+    text-decoration: underline;
+}
+
+.linknav:active
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.tableTdCss
+{
+    /*table行样式*/
+    border-color: #c8d8f2;
+    border-width: 1px;
+    background-color: #f5f8fd;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tableTdBottomCss
+{
+    /*table中按钮样式*/
+    border-color: #c8d8f2;
+    border-width: 1px;
+    background-color: #f5f8fd;
+    border-top-style: solid;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tableTdTopCss
+{
+    /*table中标题样式样式*/
+    border-color: #c8d8f2;
+    border-width: 1px;
+    background-color: #f5f8fd;
+    font-weight: bold;
+    border-bottom-style: solid;
+    font-size: 18px;
+}
+
+.divTitle
+{
+    /*标题样式*/
+    font-weight: bold;
+    color: #004B97;
+    font-size: 20px;
+}
+
+.tableTdPadding
+{
+    /*table行填充*/
+    padding: 5px;
+}
+
+.viewTr
+{
+    height: 130px;
+    vertical-align: top;
+}
+
+.imgCss
+{
+    /*按钮中图片样式*/
+    vertical-align: middle;
+    border-style: none;
+    height: 23px;
+}
+
+.divCss
+{
+    /*页面中层样式*/
+    border: 1px solid #c8d8f2;
+    width: 98%;
+    margin-left: 1%;
+    direction: ltr;
+    color: #414159;
+}
+
+.bigImgCss
+{
+	/*帮助按钮中图片样式*/
+	vertical-align: middle;
+	border-style: none;
+	height: 30px;
+}
+
+.EditTitle
+{
+    color: #135294;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+    background: url('../images/navigateTitle_bg.png') no-repeat bottom left;
+}
+
+.EditItem
+{
+    color: #135294;
+    background-color: #e5effb; 
+    width: 10%;
+}
+
+.EditItemErea
+{
+    background-color: #e5effb; 
+}
+
+.warning
+{
+    cursor: help;
+}
+
+#progressText
+{
+    display: none;
+}

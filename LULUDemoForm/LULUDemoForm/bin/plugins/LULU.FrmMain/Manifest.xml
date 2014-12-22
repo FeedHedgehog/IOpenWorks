@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" SymbolicName="LULU.FrmMain" Name="LULU.FrmMain" Version="1.0.0.0" InitializedState="Active" StartLevel="2">
+  <Activator Type="LULU.FrmMain.Activator" Policy="Immediate"/>
+  <Runtime>
+    <Assembly Path="bin\LULU.FrmMain.dll"/>
+    <!--<Assembly Path="bin\ISIMU.RIBBONFORM.MAIN.dll" Share="false" />-->
+  </Runtime>
+  <Extension Point="UIShell.Applications">
+		<Application Title="测试4" ToolTip="测试4" Icon="LULU.FrmMain.Resources.shell.png">
+			<Menu Text="测试4——1" ToolTip="测试4——1" Icon="LULU.FrmMain.Resources.shell.png" Class="LULU.FrmMain.Form1"/>
+      <Menu Text="欢迎窗口" ToolTip="欢迎窗口" Icon="LULU.FrmMain.Resources.shell.png" Class="LULU.FrmMain.MainForm"/>
+		</Application>
+	</Extension>
+  
+  <Extension Point="PageFlowService.PageNode">
+    <PageNode Name="MainPage" Priority="40" Value="LULU.FrmMain.MainFormStack" />
+    <!--<PageNode Name="MainPage" Priority="50" Value="ISIMU.RIBBONFORM.MAIN.FrmLogin" />-->
+  </Extension>
+</Bundle>
+

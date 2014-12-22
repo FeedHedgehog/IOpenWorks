@@ -1,0 +1,14 @@
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\bin\TestWpfPlugin.dll
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\bin\TestWpfPlugin.pdb
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\bin\UIShell.OSGi.dll
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\bin\UIShell.OSGi.xml
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\obj\Debug\UserControl1.baml
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\obj\Debug\UserControl1.g.cs
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\obj\Debug\TestWpfPlugin_MarkupCompile.cache
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\obj\Debug\TestWpfPlugin.g.resources
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\obj\Debug\TestWpfPlugin.Properties.Resources.resources
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\obj\Debug\TestWpfPlugin.csproj.GenerateResource.Cache
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\obj\Debug\TestWpfPlugin.dll
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\obj\Debug\TestWpfPlugin.pdb
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\obj\Debug\UserControl2.baml
+C:\Users\liulu\Desktop\TEST\DemoWpf\DemoWpf\bin\Plugins\TestWpfPlugin\obj\Debug\UserControl2.g.cs

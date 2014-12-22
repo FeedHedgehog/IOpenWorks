@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="应用中心" SymbolicName="UIShell.AppCenterPlugin" Version="1.0.0.8" InitializedState="Active" StartLevel="3">
+  <Activator Type="UIShell.AppCenterPlugin.Activator" Policy="Immediate" />
+  <Runtime>
+    <Assembly Path="bin/UIShell.AppCenterPlugin.dll" Share="false" />
+    <Assembly Path="bin/ICSharpCode.SharpZipLib.dll" Share="false" />
+    <Assembly Path="bin/System.Web.Extensions.dll" Share="false" />
+    <Dependency BundleSymbolicName="UIShell.PageFlowService" BundleVersion="1.0.0.0" AssemblyName="UIShell.PageFlowService" AssemblyVersion="1.0.0.0" Resolution="Mandatory" />
+    <Dependency BundleSymbolicName="UIShell.BundleManagementService" BundleVersion="1.0.0.0" AssemblyName="UIShell.BundleManagementService" AssemblyVersion="1.0.0.0" Resolution="Mandatory" />
+  </Runtime>
+  <Extension Point="UIShell.WebApplications">
+    <Application ToolTip="应用中心" Icon="../UIShell.AppCenterPlugin/Images/AppStore.png" DefaultPage="../UIShell.AppCenterPlugin/Default.aspx" WindowState="maximized">
+      <NavigationNode Text="应用仓库" ToolTip="应用仓库" ImageUrl="../UIShell.AppCenterPlugin/Images/Repository.png" Permission="AppCenter" NavigateUrl="../UIShell.AppCenterPlugin/BundleRepositoryBrowser.aspx" />
+      <NavigationNode Text="应用管理" ToolTip="应用管理" ImageUrl="../UIShell.AppCenterPlugin/Images/Application.png" Permission="AppManagement" NavigateUrl="../UIShell.AppCenterPlugin/BundleManagement.aspx" />
+    </Application>
+  </Extension>
+  <Extension Point="UIShell.Permissions">
+    <Permission ID="AppCenter" DisplayName="应用仓库" />
+    <Permission ID="AppManagement" DisplayName="应用管理" />
+  </Extension>
+  <Extension Point="PageFlowService.PageNode">
+    <PageNode Name="AppCenterPage" Priority="50" Value="~/Plugins/UIShell.AppCenterPlugin/BundleRepositoryBrowser.aspx" />
+  </Extension>
+  <Extension Point="UIShell.BundleManagementOptions">
+    <BundleManagementOption AllowToStarted="true" AllowToStopped="false" AllowToUninstalled="false" />
+  </Extension>
+</Bundle>

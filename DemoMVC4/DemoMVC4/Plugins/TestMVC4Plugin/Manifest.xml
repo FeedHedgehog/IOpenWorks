@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Bundle xmlns="urn:uiosp-bundle-manifest-2.0" Name="TestMVC4Plugin" SymbolicName="TestMVC4Plugin" Version="1.0.0.0" InitializedState="Active">
+  <Activator Type="TestMVC4Plugin.Activator" Policy="Immediate" />
+  
+  <Runtime>
+    <Assembly Path="bin\TestMVC4Plugin.dll" Share="false" />
+  </Runtime>
+  
+  <Extension Point="UIShell.WebApplications">
+    <Application ToolTip="TestMVC4Plugin"
+                 Icon="/{BundleRelativePath}/Images/Application.png"
+                 DefaultPage="/TestMVC4Plugin/Hello"
+                 WindowState="maximized">
+      <NavigationNode Text="主页" ToolTip="Index"
+                      ImageUrl="/{BundleRelativePath}/Images/Application.png"
+                      NavigateUrl="/TestMVC4Plugin/Hello/Index"/>
+      <NavigationNode Text="测试页面" ToolTip="Test"
+                      ImageUrl="/{BundleRelativePath}/Images/Application.png"
+                      NavigateUrl="/TestMVC4Plugin/Hello/Test"/>
+    </Application>
+  </Extension>
+</Bundle>

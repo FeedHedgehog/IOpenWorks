@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LULU.MainApplication", "LULU.MainApplication\LULU.MainApplication.csproj", "{EA2EB01D-BD25-4506-9020-9501D1867B9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LULU.Plugins", "LULU.Plugins", "{80171E92-5A9C-4F04-8998-30587A518D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LULU.ApplicationForm", "LULU.MainApplication\bin\plugins\LULU.ApplicationForm\LULU.ApplicationForm.csproj", "{26D4AF43-9A32-4D22-BE45-E2CC3FCF4BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyWinFormPlugin", "LULU.MainApplication\bin\plugins\EmptyWinFormPlugin\EmptyWinFormPlugin.csproj", "{05083F0C-48B5-4D5D-8E19-F1B917125584}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LULU.DevExpressForm", "LULU.DevExpressForm", "{63AA8E75-ED5D-4894-9B02-FCCE94187313}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA2EB01D-BD25-4506-9020-9501D1867B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2EB01D-BD25-4506-9020-9501D1867B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2EB01D-BD25-4506-9020-9501D1867B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2EB01D-BD25-4506-9020-9501D1867B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D4AF43-9A32-4D22-BE45-E2CC3FCF4BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D4AF43-9A32-4D22-BE45-E2CC3FCF4BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D4AF43-9A32-4D22-BE45-E2CC3FCF4BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D4AF43-9A32-4D22-BE45-E2CC3FCF4BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05083F0C-48B5-4D5D-8E19-F1B917125584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05083F0C-48B5-4D5D-8E19-F1B917125584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05083F0C-48B5-4D5D-8E19-F1B917125584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05083F0C-48B5-4D5D-8E19-F1B917125584}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26D4AF43-9A32-4D22-BE45-E2CC3FCF4BC5} = {80171E92-5A9C-4F04-8998-30587A518D1B}
+		{05083F0C-48B5-4D5D-8E19-F1B917125584} = {80171E92-5A9C-4F04-8998-30587A518D1B}
+	EndGlobalSection
+EndGlobal
